@@ -1,0 +1,14 @@
+header {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    color: $textcolor;
+
+    button {
+        background-color: $brand;
+        &:hover{
+            background-color: burlywood;
+        }
+
+    }
+}
